@@ -1,0 +1,404 @@
+
+.nav-item .active {
+    color: #24bca4 !important;
+}
+.nav-item a{
+color: #fff;
+}
+
+.nav-item a:hover{
+    color: #24bca4;
+}
+.carousel-control-prev-icon{
+    
+    bottom: 50px;
+}
+.carousel-control-next-icon{
+    
+    bottom: 50px;
+    
+    right: 35cm;
+    
+}
+.carousel-item{
+    position: relative;
+}
+.slidebtn{
+    background-color: transparent;
+    color : white;
+    border-color: white;
+    border: 1px solid;
+    padding: 16px 28px;
+}
+.slidebtn:hover {
+    transition-duration: 0.4s;
+    background-color: white;
+    color:#24bca4;
+}
+
+
+.imgb{
+    position: relative;
+    float: left;
+    width: 50%;
+    z-index: 2;
+}
+.img1{
+    padding: 0 15px 0 30px;
+}
+.img1:before{
+    position:absolute;
+    content: '';
+    width: 140px;
+    height: 160px;
+    background-color: #edeffd;
+    border-radius: 3px;
+    bottom: -34px;
+    left: -4px;
+    z-index: -1;
+}
+.img2{
+    padding: 30px 30px 0 15px;
+}
+.img3{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 1px
+}
+h3.text-uppercase{
+    font-weight: 600;
+    font-size: 14px;
+}
+.carousel-item>h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.progress .progress-bar{
+    background-color: #24bca4;
+}
+.progress-bar-striped
+{
+    background-color: #000;
+}
+.cardbox{
+    padding: 30px;
+}
+.cardbox .card-title{
+    margin: 30px 0 20px;
+}
+.cardbox .card-text{
+    margin-bottom: 20px;
+}
+.icon{
+    color:#24bca4;
+    font-size: 30px;
+    line-height: 36px !important;
+    cursor: pointer;
+    border: 0;
+    border-radius: 50%;
+   
+}
+.cardbox .card:hover {
+    background: #24bca4;
+    color: #fff;
+    transform: translateY(-5px);
+    transition: all 0.3s;
+    
+}
+.cardbox .card:hover .icon{
+    color: #fff;
+}
+.link{
+    color: #444;
+   
+    transition: .3s;
+}
+.link:hover{
+    color: #24bca4;
+}
+.parallex{
+    background-image: url(./img2/parallex1.jpg);
+   
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colbox{
+    
+    color: #fff;
+}
+.parallexbox{
+   
+    padding: 10%;
+}
+.parallexbox h5{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 45px;
+    margin: 0 0 20px 0;
+}
+.parallexbox p{
+    font-size: 14px;
+    line-height: 14px;
+}
+.parallexbox i{
+
+    position: relative;
+    display: block;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: normal;
+    margin: 10px 0 20px;
+    text-align: center;
+    cursor: default;
+}
+.fadeInUp{animation:fadeInUp 1s ease backwards;}
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 100px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1;}
+}
+
+
+.member {
+    position: relative;
+    background-color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.member .member-pic {
+    position: relative;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.member:hover .member-pic img {
+    -webkit-transform: scale(1.12);
+    -moz-transform: scale(1.12);
+    transform: scale(1.12);
+}
+.member .member-pic img {
+    width: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.social{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-radius: 3px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(10px);
+    background-color: rgba(36, 188, 164, 0.85);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.social-link{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%,);
+    color: #fff;
+}
+.social-link a{
+    padding: 5px;
+    color: #fff;
+}
+.social-link a:hover{
+    
+    color: #fff;
+}
+.member:hover .social{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.memberinfo a{
+    color: #444;
+   
+    transition: .3s;
+}
+.memberinfo a:hover{
+    color: #24bca4;
+}
+.parallex1{
+    background-image: url(./img2/parallex2.jpg);
+   
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-group .list-group-item:hover {
+background-color: #24bca4 ;
+color: #fff;
+}
+.list-group ul{
+    background-color: #24bca4;
+    color: #000;
+}
+.blog-post .card-title:hover{
+color:#24bca4;
+cursor: pointer;
+}
+.blog-post .card-link{
+
+    color:#24bca4;
+}
+.blog-post .card:hover .card-link{
+    color: #444;
+   
+}
+.blog-post .blog-type{
+    position: absolute;
+    display: block;
+    left: 20px;
+    top: 20px;
+    margin: 0;
+    color: #fff;
+    padding: 6px 8px;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.blog-post .card:hover .blog-type{
+    background-color:#24bca4;
+    color: #fff;
+
+}
+.blog-post .card {
+    position: relative;
+    background-color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.blog-post .card .card-img-top {
+    position: relative;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.blog-post .card:hover .card-img-top img {
+    -webkit-transform: scale(1.12);
+    -moz-transform: scale(1.12);
+    transform: scale(1.12);
+}
+.blog-post .card .card-img-top img {
+    width: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.blog-post .overlay{
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        border-radius: 3px;
+        text-align: center;
+        opacity: 0;
+        transform: translateY(10px);
+        background-color: #444;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    
+}
+.blog-post .card:hover .overlay{
+    opacity: .25;
+    transform: translateY(0);
+}
+.blog-post .card{
+    background-color: #f8f5f2;
+}
+.parallex-2{
+    background-image: url(./img2/parallex3.jpg);
+   
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lowerslide{
+    position: relative;
+}
+.lowerslide .carousel-indicators{
+    position: absolute; 
+}
+.lowerslide .carousel-indicators button{
+    position: absolute;
+    margin-top: 30px;
+    background-color: #24bca4;
+}
+.responsive-map{
+overflow: hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.responsive-map iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.company a{
+    color: #fff;
+}
+.company a:link{
+    text-decoration: none;
+}
+.company a:hover{
+    color: #24bca4;
+}
+body {
+    font-family: 'Poppins'!important;
+}
+
+
+
+
+
+
+
+
